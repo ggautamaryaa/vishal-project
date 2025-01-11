@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container1{
+    height: 82px;
+    color: gray;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    box-shadow: 1px 1px 1px rgb(222, 221, 221);
+    
+}
+.container1 .nav-link{
+    color: gray;
+}
+
+hr{
+    color: gray;
+    
+}
+.t{
+    height: 50px;
+   padding: 2px;
+}
+
+.t a{
+    color: black;
+    font-weight:600;
+    text-decoration: none;
+    margin-bottom: 20px;
+   
+}
+.tour{
+   background-color: orangered;
+   height: 45px;
+    
+}
+.navbar-collapse ul li:hover{
+    text-decoration: underline solid orangered 2px;
+    color: orangered;
+    font-weight: 500;
+    
+}
+.nav-item a{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-link:hover{
+    color: orangered;
+}
+.trend{
+    height: 8px;
+    width: 45px;
+    font-size: 7px;
+    
+}
+
+
+.callback{
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    width: 265px;
+    left: 60px;
+    font-size: 10px;
+    background-color: rgb(238, 112, 28);
+    border-radius: 10px;
+
+}
+.callback button{
+    font-size: 15px;
+   background-color:  rgb(238, 112, 28);
+}
+
+.phone{
+    color: rgb(236, 163, 27);
+    height: 50px;
+    width: 50px;
+    border: 1px solid orange;
+    position: relative;
+    
+   
+}
+.h{
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.carousel-indicators button{
+   height: 40px;
+    border-radius: 100%;
+}
+.c{
+    display: inline-block;
+}
+.range{
+    border: 1px solid rgb(208, 208, 208) ;
+    border-radius: 6px;
+}
+
+.inr input[type="number"]::placeholder{
+    color: black; 
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.for{
+    background-color: rgb(243,112,2);
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    margin-left: 130px;
+}
+.head{
+    height: 550px;
+    width: 750px;
+}
+.modal-dialog{
+    display: block;
+}
